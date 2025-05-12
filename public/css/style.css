@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #1a1a1a;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background: #222;
+    color: #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+#playerList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.player-card {
+    background: #333;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}

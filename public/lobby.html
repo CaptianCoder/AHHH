@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lobby</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="lobbyName"></h1>
+        <div class="card">
+            <div id="playerList"></div>
+            <div id="gameControls" class="hidden">
+                <div id="gameSelection">
+                    <button onclick="selectGame('imposters')">Imposters</button>
+                    <button onclick="selectGame('guessing')">Guessing Game</button>
+                </div>
+                <div id="gameSettings"></div>
+                <div id="gameInterface"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/lobby.js"></script>
+</body>
+</html>
